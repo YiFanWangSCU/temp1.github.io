@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+        <title>About | 原神高手</title>
+        <meta name="author" content="信子">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link rel="icon" href="http://pic.bizhi360.com/bbpic/68/10268.jpg">
+        <script src="https://cdn.staticfile.org/instant.page/5.1.0/instantpage.min.js" type="module"></script>
+        <script src="https://cdn.staticfile.org/font-awesome/6.1.1/js/all.min.js"></script>
+        
+        <link rel="stylesheet" href="/temp1.github.io/css/test/fonts.min.css">
+        <link rel="stylesheet" href="/temp1.github.io/css/test/particlex.css">
+        
+        <script src="https://cdn.staticfile.org/vue/3.2.33/vue.global.prod.min.js"></script>
+    <meta name="generator" content="Hexo 6.2.0"></head>
+    <body>
+        <div id="loading" style="height:100vh;width:100vw;position:fixed;display:flex;z-index:200;justify-content:space-between;background:#fff;transition:opacity 0.3s ease-out"><div style="position:fixed;height:100vh;width:100vw;display:flex;justify-content:center;align-items:center"><div id="loadcontent" style="width:50vmin;height:50vmin;padding:50px;border-radius:50%;display:flex;justify-content:center;align-items:center;border:solid 10px #a3ddfb;text-align:center"><div><h2>LOADING...</h2><p style="word-break:keep-all">加载过慢请开启缓存(浏览器默认开启)</p><div><img alt="loading" src="/temp1.github.io/loading.gif"></div></div></div></div></div>
+        <div id="layout">
+            <i data-fa-symbol="calendar-solid" class="fa-solid fa-calendar fa-fw"></i>
+            <i data-fa-symbol="bookmark-solid" class="fa-solid fa-bookmark fa-fw"></i>
+            <i data-fa-symbol="tags-solid" class="fa-solid fa-tags fa-fw"></i>
+            <transition name="into">
+                <div v-show="show_page" style="display: -not-none">
+                    <div id="menu_show">
+                         
+<nav id="menu">
+    <div class="desktop-menu">
+        <a href="/temp1.github.io/">
+            <span class="title">原神高手</span>
+        </a>
+        
+        <a href="/temp1.github.io/">
+            <i class="fa-solid fa-house fa-fw"></i>
+            <span>&ensp;home</span>
+        </a>
+        
+        <a href="/temp1.github.io/about">
+            <i class="fa-solid fa-id-card fa-fw"></i>
+            <span>&ensp;about</span>
+        </a>
+        
+        <a href="/temp1.github.io/archives">
+            <i class="fa-solid fa-box-archive fa-fw"></i>
+            <span>&ensp;archives</span>
+        </a>
+        
+        <a href="/temp1.github.io/categories">
+            <i class="fa-solid fa-bookmark fa-fw"></i>
+            <span>&ensp;categories</span>
+        </a>
+        
+        <a href="/temp1.github.io/tags">
+            <i class="fa-solid fa-tags fa-fw"></i>
+            <span>&ensp;tags</span>
+        </a>
+        
+    </div>
+    <div :class="'phone-menu ' + menu_show" id="phone-menu">
+        <div class="curtain" @click="menu_show = !menu_show" v-show="menu_show"></div>
+        <div :class="'title'" @click="menu_show = !menu_show">
+            <i class="fa-solid fa-bars fa-fw"></i>
+            <span>&emsp;原神高手</span>
+        </div>
+        <transition name="slide">
+        <div class="items" v-show="menu_show">
+            
+            <a href="/temp1.github.io/">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-house fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">home</div>
+                </div>
+            </a>
+            
+            <a href="/temp1.github.io/about">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-id-card fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">about</div>
+                </div>
+            </a>
+            
+            <a href="/temp1.github.io/archives">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-box-archive fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">archives</div>
+                </div>
+            </a>
+            
+            <a href="/temp1.github.io/categories">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-bookmark fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">categories</div>
+                </div>
+            </a>
+            
+            <a href="/temp1.github.io/tags">
+                <div class="item">
+                    <div style="min-width: 20px; max-width: 50px; width: 10%">
+                        <i class="fa-solid fa-tags fa-fw"></i>
+                    </div>
+                    <div style="min-width: 100px; max-width: 150%; width: 20%">tags</div>
+                </div>
+            </a>
+            
+        </div>
+        </transition>
+    </div>
+</nav>
+                    </div>
+                    <div id="main">
+                        
+<div class="article">
+    <div>
+        <h1>About </h1>
+    </div>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <svg class="fa-icon"><use xlink:href="#calendar-solid"></use></svg>
+            </span>
+            2022/9/6
+        </span>
+        
+        
+    </div>
+    <div class="content" v-pre>
+        <p>【京东健康】您好，健康避孕套来袭！店铺首购礼金首购立减7.0元，速来！戳3.cn&#x2F;v&#x2F;1008Smt-u，退订回TM<br>老六在干嘛？老六在偷包！能偷掉吗？！要炸了！要炸了！！要偷掉了！！！🤩🤩偷不掉！有的有的！🥳🥳🥳完美！！他出了个拆弹工具钳！！！​<br>我反倒觉得这期视频很有意思，何同学真的可以不厌其烦做很多厉害的东西，绝大多数时候，我们也只是想一想。这期视频或许不是那么的有“乐子”，但我感觉到的更多的是何同学想把他脑子里的天马行空和奇思妙想分享给观众们。不论怎么样，还是希望小何同学放下压力，做自己喜欢做的事。特别喜欢看到这种真诚又新奇的视频，这样的同龄人不会让我有压力，只会让我觉得确定这个世界上一定有很多我不认识的同行者在为着不同的美好而努力向前走。​<br>中国电信温馨提示：刷单诈骗多种多样，切勿贪小便宜吃大亏。同时要警惕传销式诈骗，不要为了蝇头小利拉人头，祸害其他人，更不要轻易扫描或点击来历不明的二维码和网站链接！如您遇到类似诈骗情况，请及时拨打10000号进行举报。<br>长期以来，我们在作风领域成绩斐然，信心突飞猛进。然而你妈死了的发展并不像它表面那么光鲜，你妈死了问题依然突出。因此，必须正确认识热点，确保整治的实现。我们不仅要统筹重点，深化本质属性更要明显提高。“达人无不可，忘己爱苍生。“孔子的话穿越历史的场合，到今天依旧振聋发聩，他不断警示我们你妈死了是我们关注的重点。你妈死了在基本方略运行方面发挥了至关重要的作用，促进社会飞速发展，推动经济跨越进步，但是令人心痛的是，你妈死了也带来了一系列不容忽视的问题，如只注重了你妈死了的表面没有真正理解你妈死了的内涵，这造成了你妈死了永续发展的潜力损害，从这个意义上说正确使用你妈死了这把锋利的刀刃，助力你妈死了的全面合理运行显得尤为重要，因此，将你妈死了放在核心区位，置于首要地位，将是国家富强、民族振兴、人民幸福的根本之道。<br>感觉不如带专<br>我三岁刷题，那一年题一上手就人笔合一<br>爱不释手，九岁悟出勾股定理<br>于考场之上斩杀众多大题<br>十八岁我熟读天下考纲，纵横高中再无敌手<br>我这一生只有一个敌人，那就是我自己<br>我去问学长问跟🦘是否有缘？<br>学长说， 你跟🦘无缘。<br>我说求缘，学长说，那你便复读上千年<br>在那一千年里，你可知🦘<br>而🦘却不知有你，你可愿等呐？<br>我答，孝子，请战。</p>
+<p>见到这种币，我们一定要狠狠地炒，但是，什么样的知识适用于炒这样的币很有讲究，是包着炒还是攒着炒？知识就很重要，因此，首先，我们要判断这个币是老币、新币还是少币，我们需要抄起币，靠近币面，检查币材，用手在币口轻轻摩擦，注意观察币口是否微微泛起水光。如果泛起水光，那么这个币就是我们俗称的“水币”，这种币是仿制币，并不值钱，市面价格大概在一碗两百至五百左右，对于这种币，我们需要包它起来狠狠地炒，正因为不值钱，所以我们无需怜惜，也无需投入太多精力，炒完就跑。<br>其次，我们观察币口，将手指尝试着探入，如果币口光滑，且极难进入，那么这个币就是我们称之为“少币”的稀有币，这种币市面价格稍贵，一碗一千至五千不等。这种币最好攒着炒，后入为宜。这是由于这币水深，炒币新手很容易在它身上马失前蹄，投入过多的精力在里面，甚至有强建多倍杠杆去炒的，新手很容易迷失，把握不住。因此最佳选择是后入，静静等待，择机而入。<br>最后，炒币以炒古钱币为宜，天然去雕饰，古钱币的魅力自不必说，但是现代的工艺品币也多种多样，成了炒币市场的“搅币棍”。一种是“镶钻币”，其价格及其高昂，一碗最低1w上不封顶，另一种则是“人造币”，其仿制水平之高令人咋舌，甚至能伪装成刚被发掘，第一次被人炒，其币口光滑圆润，微微隆起似馒头形状，将手指探入，币口内及难进入，紧致的包裹以及币里的膜告诉炒币者这币是第一次被炒。其实这都是人为假象！这种币，我不建议炒，我自己不会炒，更不推荐别人炒，我认为炒这种币的人是在哄抬币价，扰乱炒币市场。#(吐舌)  #(吐舌)  #(吐舌) </p>
+<p>相识系于缘，相知系于诚，一个真正的朋友不论身在何处，总时时付出关和爱，愿你快乐!</p>
+<p>菩萨保佑你,财神养着你,关公罩着你,喜神绕着你,恭喜恭喜!</p>
+
+    </div>
+    
+</div>
+                         
+<footer id="footer">
+    <div class="footer-wrap">
+        <div>
+            © 2022 - 2022 原神高手
+            <span class="footer-icon">
+                <i class="fa-solid fa-font-awesome fa-fw"></i>
+            </span>
+            @信子
+        </div>
+        <div></div>
+        <div>Based on the <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo Engine</a> & <a
+                target="_blank" rel="noopener" href="https://github.com/argvchs/hexo-theme-particlex">ParticleX Theme</a></div>
+        
+    </div>
+</footer>
+                    </div>
+                </div>
+            </transition>
+            <div id="img_show">
+                <img id="img_content" alt="img_show">
+            </div>
+        </div>
+        <script src="https://cdn.staticfile.org/highlight.js/11.5.1/highlight.min.js"></script>
+        <script src="/temp1.github.io/js/particlex.js"></script>
+        <script src="/temp1.github.io/js/showimg.js"></script>
+        
+
+    </body>
+</html>
