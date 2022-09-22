@@ -50,7 +50,7 @@
   isHome: false,
   isHighlightShrink: true,
   isToc: false,
-  postUpdate: '2022-09-20 22:55:41'
+  postUpdate: '2022-09-22 22:56:28'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -184,7 +184,7 @@ window.addEventListener('load',preloader.endLoading())</script><div class="js-pj
   }
 
   const getComment = () => {
-    fetch('https://disqus.com/api/3.0/forums/listPosts.json?forum=yylovestory.disqus.com&related=thread&limit=6&api_key=')
+    fetch('https://disqus.com/api/3.0/forums/listPosts.json?forum=yylovestory&related=thread&limit=6&api_key=')
       .then(response => response.json())
       .then(data => {
         const disqusArray = data.response.map(item => {
